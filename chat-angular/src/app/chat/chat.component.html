@@ -1,0 +1,30 @@
+<div class="panel panel-primary">
+  <div class="panel-heading text-center">
+    <h3 >Mensagens </h3>
+  </div> 
+
+  <div #chat> </div>
+
+  <div class="panel-body">
+
+    <form [formGroup]="angForm" novalidate>
+
+        <div class="input-group mb-3">
+            <input type="text" formControlName="msg" #msg class="form-control" placeholder="Digite aqui..."  aria-describedby="button-addon2">
+
+            <div class="input-group-append">
+              <button type="submit" (click)="onMessage(msg.value, scrollEle)" [disabled]="angForm.pristine || angForm.invalid" 
+                class="btn btn-outline-primary" type="button" id="button-addon2">Enviar
+              </button>              
+            </div>
+        </div>   
+
+    </form>
+    <p #scrollEle></p>
+
+
+
+
+
+  </div>
+</div>

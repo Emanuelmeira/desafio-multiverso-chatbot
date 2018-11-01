@@ -1,0 +1,22 @@
+{
+  "name": "conversation",
+  "version": "1.0.0",
+  "description": "Watson IA Assistant",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watson",
+    "conversation",
+    "nodejs"
+  ],
+  "author": "Emanuel Meira",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "watson-developer-cloud": "^3.12.0"
+  }
+}
