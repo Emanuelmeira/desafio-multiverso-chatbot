@@ -1,5 +1,7 @@
 [![N|Solid](http://solutis.com.br/images/logo.png)](http://solutis.com.br)
 
+![Chat](https://github.com/Emanuelmeira/desafio-multiverso-chatbot/blob/master/img/chat.PNG)
+
 # NOSSO DESAFIO MORTY - CHATBOT
 “Cada cabeça um universo” de infinitas possibilidades. Imagine-se em um multiverso inóspito onde os maiores guerreiros estão congelados em cápsulas e poderão ser acionados para batalhas a qualquer momento. O próximo guerreiro a ser escolhido tem a missão de impedir um novo ataque utilizando seus conhecimentos em tecnologia. Nesse cenário, você é um guerreiro congelado e o chatbot deve fazer com que você seja escolhido para a missão. Para isso, seu chatbot deverá saber responder no mínimo as seguintes questões:
 - nome (ex: como se chama?, qual seu nome guerreiro?... )
