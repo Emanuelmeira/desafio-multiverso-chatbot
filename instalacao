@@ -1,0 +1,35 @@
+### Instruções
+
+Dedepencias: 
+Node 8.10.0
+Angular Cli  7.0.3 (atual)
+----------------------------
+Instalar as depencias: 
+
+Para Angular CLI "sudo npm install -g @angular/cli"
+
+Para Node varia de Linux para Windows 
+https://nodejs.org/en/download/
+
+----------------------------
+Depois do clone do projeto que esta em:
+https://github.com/Emanuelmeira/desafio-multiverso-chatbot
+
+Basta entrar em "cd  api/" e executar "sudo npm install". Para baixar as depencias da API.
+
+Tambem "cd chat-angular/" executar "sudo npm install". Para baixar as depencias do chat-angular. 
+
+----------------------------
+
+Execução:
+
+No diretorio "api/" basta executar "node app.js". A API esta sendo iniciada na porta 3000
+
+No diretorio "chat-angular/" basta executar "ng serve". A aplicação Angular esta sendo iniciada em "localhost:4200"
+
+-----------------------------
+Tutorial feito com base em OS Linux.
+
+emmitmeira@gmail.com
+
+
